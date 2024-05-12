@@ -1,0 +1,14 @@
+{
+	"port": 8080,
+	"bodyLimit": "100000kb",
+	"corsHeaders": ["Link"],
+	"projectName": "nodejsgl9ig",
+	"dbConnection": {
+		"dbtype": "mysql",
+		"database": "nodejsgl9ig",
+		"username": "root",
+		"password": "123456"
+	},
+	"sessionSecret": "xiezn",
+	"jwtSecret": "xiezn"
+}

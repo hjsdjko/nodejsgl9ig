@@ -1,0 +1,88 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/chat/chat",
+    "pages/news-detail/news-detail",
+    "pages/xueshengyonghu/list",
+    "pages/xueshengyonghu/add-or-update",
+    "pages/xueshengyonghu/detail",
+    "pages/shangjia/list",
+    "pages/shangjia/add-or-update",
+    "pages/shangjia/detail",
+    "pages/jianzhifenlei/list",
+    "pages/jianzhifenlei/add-or-update",
+    "pages/jianzhifenlei/detail",
+    "pages/jianzhixinxi/list",
+    "pages/jianzhixinxi/add-or-update",
+    "pages/jianzhixinxi/detail",
+    "pages/jianzhibaoming/list",
+    "pages/jianzhibaoming/add-or-update",
+    "pages/jianzhibaoming/detail",
+    "pages/jubaoxinxi/list",
+    "pages/jubaoxinxi/add-or-update",
+    "pages/jubaoxinxi/detail",
+    "pages/guanyuwomen/list",
+    "pages/guanyuwomen/add-or-update",
+    "pages/guanyuwomen/detail",
+    "pages/storeup/list",
+    "pages/storeup/add-or-update",
+    "pages/storeup/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/messages/list",
+    "pages/messages/liuyan",
+    "pages/discussjianzhixinxi/list",
+    "pages/discussjianzhixinxi/add-or-update",
+    "pages/discussjianzhixinxi/detail",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "基于微信小程序的校园兼职系统",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#BBBBBB",
+    "selectedColor": "#C2E46A",
+    "borderStyle": "white",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/jianzhixinxi/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "兼职信息"
+      },
+      {
+        "pagePath": "pages/news/list",
+        "iconPath": "static/tabs/news.png",
+        "selectedIconPath": "static/tabs/news_act.png",
+        "text": "公告资讯"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
